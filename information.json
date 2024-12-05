@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "name": "Apache Manager",
+    "description": "",
+    "dependencies": {
+        "files": 1,
+        "settings": 1,
+        "service_manager": 1,
+        "cmd": 1,
+        "is_admin": 1
+    },
+    "id_name": "apache",
+    "author": "tom"
+}
