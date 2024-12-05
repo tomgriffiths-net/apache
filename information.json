@@ -1,0 +1,12 @@
+{
+    "version": 1,
+    "name": "Apache Manager",
+    "description": "",
+    "dependencies": {
+        "is_admin": 1,
+        "service_manager": 2,
+        "settings": 2
+    },
+    "id_name": "apache",
+    "author": "tom"
+}
