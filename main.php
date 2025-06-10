@@ -23,7 +23,6 @@ class apache{
             }
         }
     }
-    //
     public static function set_document_directory($httpd_conf,$directory){
         files::ensureFolder($directory);
         files::copyFile($httpd_conf,$httpd_conf . "_backup");
