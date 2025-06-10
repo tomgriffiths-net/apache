@@ -1,17 +1,18 @@
 <?php
 class apache{
     public static function init():void{
-        if(settings::isset("servers")){
-            $servers = settings::read("servers");
-            foreach($servers as $serverNumber => $serverData){
-                if(isset($serverData['autostart'])){
-                    if($serverData['autostart'] === true){
-                        self::start($serverNumber);
-                    }
+        $servers = settings::read("servers");
+        if(!is_array($servers)){
+            mklog(0,'Failed to read servers list');
+        }
+        foreach($servers as $serverNumber => $serverData){
+            if(isset($serverData['autostart'])){
+                if($serverData['autostart'] === true){
+                    self::start($serverNumber);
                 }
-                else{
-                    settings::set("servers/" . $serverNumber . "/autostart",false);
-                }
+            }
+            else{
+                settings::set("servers/" . $serverNumber . "/autostart",false);
             }
         }
     }
