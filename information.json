@@ -6,7 +6,7 @@
     "description": "",
     "dependencies": {
         "is_admin": 1,
-        "service_manager": 2,
+        "service_manager": 3,
         "settings": 2
     }
 }
