@@ -1,6 +1,6 @@
 {
-    "version": 4,
-    "name": "Apache Manager",
+    "version": 5,
+    "name": "Apache Manager (Dev)",
     "description": "",
     "dependencies": {
         "is_admin": 1,
