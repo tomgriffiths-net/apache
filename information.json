@@ -1,7 +1,7 @@
 {
     "id_name": "apache",
     "name": "Apache Manager (Dev)",
-    "version": 5,
+    "version": 6,
     "author": "tom",
     "description": "",
     "dependencies": {
