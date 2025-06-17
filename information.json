@@ -1,12 +1,12 @@
 {
-    "version": 5,
+    "id_name": "apache",
     "name": "Apache Manager (Dev)",
+    "version": 5,
+    "author": "tom",
     "description": "",
     "dependencies": {
         "is_admin": 1,
         "service_manager": 2,
         "settings": 2
-    },
-    "id_name": "apache",
-    "author": "tom"
+    }
 }
