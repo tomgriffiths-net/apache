@@ -1,5 +1,5 @@
 # apache
-**This php-cli package is being replaced by the apachemgr package**
+**This php-cli package has been replaced by apachemgr**
 
 apache is a PHP-CLI package that manages apache servers, this is not apache, just a management tool for apache servers.
 
